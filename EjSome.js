@@ -33,3 +33,11 @@ const longWords = ()=>{
     console.log(longer)
     alert(longer)
 }
+
+const indexLongWord = ()=>{
+    const longer = words.some((word, index)=>{word.length >= 5
+        return(
+            console.log("Posición ", index, "es: ", word)
+            )
+        })
+}
