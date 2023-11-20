@@ -1,0 +1,42 @@
+</html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio 1.2: Formulario</title>
+	</head>
+	<body>
+		<fieldset>
+			<legend>Formulario</legend>
+			<br>
+			<form action="#" method="post">
+				<label for="name">Tu nombre:</label>
+				<input type="text" name="nombre">
+				<br><br>
+				<label for="edad">Tu edad:</label>
+				<input type="radio" name="edad" value="menos de 10 años">Menos de 10 años
+				<input type="radio" name="edad" value="entre 10 y 20 años">Entre 10 y 20 años
+				<input type="radio" name="edad" value="más de 20 años">Más de 20 años
+				<br><br>
+				<label for="equipos">¿Cuál es tu equipo de fútbol preferido?</label>
+				<select name="equipos" id="futbol">
+					<option value="Ninguno">Ninguno
+					<option value="Real Madrid">Real Madrid
+					<option value="FC Barcelona">FC Barcelona
+					<option value="Atlético de Madrid">Atlético de Madrid
+				</select>
+				<br><br>
+				<label for="carrera">¿Cuál es la carrera que deseas estudiar?</label><br>
+				<input type="radio" name="carrera" value="informatica" checked>Opcion 1
+				<input type="radio" name="carrera" value="telecomunicaciones">Opcion 2
+				<input type="radio" name="carrera" value="obras publicas">Opcion 3
+				<br><br>
+				<label for="dni">Escribe tu DNI:</label>
+				<input type="text" name="dni">
+				<br><br>
+				<input type="submit" value="Enviar datos">
+				<input type="reset" value="Borrar">
+				<br><br>
+				<a href="#">Volver al menú principal</a>
+			</form>
+		</fieldset>
+	</body>
+</html>
