@@ -5,7 +5,8 @@ console.log('Hola, este código está en un documento .js');
 
 // Hacer un programa en JavaScripts que imprima los 10 primeros números naturales. Usa FOR y WHILE
 for(let i = 1; i <= 10; i++){
-    console.log("Numero natural: ", i)
+    console.log("Numero: ", i)
+    document.write("Numero: ", i)
 }
 
 
@@ -19,25 +20,29 @@ for (let i = 1; i <= 10; i++) {
     }
   }
 
+i=1
+while(i<=12){
+    if (i % 2 === 0) {
+        // Imprimir el número par
+        console.log("Este es par:", i);
+      }
+      i=i+1
+}
+
 //Ejemplo usos prompt:
 //   prompt("introduce un string o número")
 
+// sumar n numeros:
+let i = 0;
+let suma = 0;
+numero = prompt("introduce numeros");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+while(i<numero){
+    valoSumar = parseInt(prompt("introduce otro numero"));
+    suma = suma+valoSumar;
+    i=i+1
+} 
+document.write("la suma es: ", suma)
 
 
 // Crea un programa en JAVASCRIPTS que PIDA POR PANTALLA un valor entre 1 y 10 y que adivine de modo aleatorio si acierta o no.
