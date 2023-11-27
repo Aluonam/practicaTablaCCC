@@ -27,18 +27,4 @@ resultado2 = division(num1,num2)
 document.write("El producto es: ", resultado1)
 document.write("El producto es: ", resultado2)
 
-//------------------------------------------------
-
-const obtenerNumerosPares= () => {
-    const numerosPares = [];
-  
-    for (let i = 2; i <= 10; i += 2) {
-      numerosPares.push(i);
-    }
-  
-    return numerosPares;
-  }
-
-console.log(obtenerNumerosPares())
-
 
