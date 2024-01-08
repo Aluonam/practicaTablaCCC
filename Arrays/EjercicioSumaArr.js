@@ -8,5 +8,5 @@ function pinta1(numeros)
         suma=suma+numeros[i]; //lo sustituye por .... y pone varias respuestas
             i=i+1;
         }
-    dcoument.write(" la suma de todos los numeros introducidos en la tabla es "+suma);
+    document.write(" la suma de todos los numeros introducidos en la tabla es "+suma);
     }
